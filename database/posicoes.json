@@ -1,0 +1,544 @@
+[
+    {
+        "valor": 1,
+        "left": 0,
+        "bottom": 0
+    },
+    {
+        "valor": 2,
+        "left": 52,
+        "bottom": 0,
+        "atalho": "escada",
+        "proximaPosicao": 38
+    },
+    {
+        "valor": 3,
+        "left": 104,
+        "bottom": 0
+    },
+    {
+        "valor": 4,
+        "left": 156,
+        "bottom": 0
+    },
+    {
+        "valor": 5,
+        "left": 208,
+        "bottom": 0
+    },
+    {
+        "valor": 6,
+        "left": 260,
+        "bottom": 0
+    },
+    {
+        "valor": 7,
+        "left": 312,
+        "bottom": 0,
+        "atalho": "escada",
+        "proximaPosicao": 14
+    },
+    {
+        "valor": 8,
+        "left": 364,
+        "bottom": 0,
+        "atalho": "escada",
+        "proximaPosicao": 31
+    },
+    {
+        "valor": 9,
+        "left": 416,
+        "bottom": 0
+    },
+    {
+        "valor": 10,
+        "left": 468,
+        "bottom": 0
+    },
+    {
+        "valor": 11,
+        "left": 468,
+        "bottom": 52
+    },
+    {
+        "valor": 12,
+        "left": 416,
+        "bottom": 52
+    },
+    {
+        "valor": 13,
+        "left": 364,
+        "bottom": 52
+    },
+    {
+        "valor": 14,
+        "left": 312,
+        "bottom": 52
+    },
+    {
+        "valor": 15,
+        "left": 260,
+        "bottom": 52,
+        "atalho": "escada",
+        "proximaPosicao": 26
+    },
+    {
+        "valor": 16,
+        "left": 208,
+        "bottom": 52,
+        "atalho": "cobra",
+        "proximaPosicao": 6
+    },
+    {
+        "valor": 17,
+        "left": 156,
+        "bottom": 52
+    },
+    {
+        "valor": 18,
+        "left": 104,
+        "bottom": 52
+    },
+    {
+        "valor": 19,
+        "left": 52,
+        "bottom": 52
+    },
+    {
+        "valor": 20,
+        "left": 0,
+        "bottom": 52
+    },
+    {
+        "valor": 21,
+        "left": 0,
+        "bottom": 104,
+        "atalho": "escada",
+        "proximaPosicao": 42
+    },
+    {
+        "valor": 22,
+        "left": 52,
+        "bottom": 104
+    },
+    {
+        "valor": 23,
+        "left": 104,
+        "bottom": 104
+    },
+    {
+        "valor": 24,
+        "left": 156,
+        "bottom": 104
+    },
+    {
+        "valor": 25,
+        "left": 208,
+        "bottom": 104
+    },
+    {
+        "valor": 26,
+        "left": 260,
+        "bottom": 104
+    },
+    {
+        "valor": 27,
+        "left": 312,
+        "bottom": 104
+    },
+    {
+        "valor": 28,
+        "left": 364,
+        "bottom": 104,
+        "atalho": "escada",
+        "proximaPosicao": 84
+    },
+    {
+        "valor": 29,
+        "left": 416,
+        "bottom": 104
+    },
+    {
+        "valor": 30,
+        "left": 468,
+        "bottom": 104
+    },
+    {
+        "valor": 31,
+        "left": 468,
+        "bottom": 156
+    },
+    {
+        "valor": 32,
+        "left": 416,
+        "bottom": 156
+    },
+    {
+        "valor": 33,
+        "left": 364,
+        "bottom": 156
+    },
+    {
+        "valor": 34,
+        "left": 312,
+        "bottom": 156
+    },
+    {
+        "valor": 35,
+        "left": 260,
+        "bottom": 156
+    },
+    {
+        "valor": 36,
+        "left": 208,
+        "bottom": 156,
+        "atalho": "escada",
+        "proximaPosicao": 44
+    },
+    {
+        "valor": 37,
+        "left": 156,
+        "bottom": 156
+    },
+    {
+        "valor": 38,
+        "left": 104,
+        "bottom": 156
+    },
+    {
+        "valor": 39,
+        "left": 52,
+        "bottom": 156
+    },
+    {
+        "valor": 40,
+        "left": 0,
+        "bottom": 156
+    },
+    {
+        "valor": 41,
+        "left": 0,
+        "bottom": 208
+    },
+    {
+        "valor": 42,
+        "left": 52,
+        "bottom": 208
+    },
+    {
+        "valor": 43,
+        "left": 104,
+        "bottom": 208
+    },
+    {
+        "valor": 44,
+        "left": 156,
+        "bottom": 208
+    },
+    {
+        "valor": 45,
+        "left": 208,
+        "bottom": 208
+    },
+    {
+        "valor": 46,
+        "left": 260,
+        "bottom": 208,
+        "atalho": "cobra",
+        "proximaPosicao": 25
+    },
+    {
+        "valor": 47,
+        "left": 312,
+        "bottom": 208
+    },
+    {
+        "valor": 48,
+        "left": 364,
+        "bottom": 208
+    },
+    {
+        "valor": 49,
+        "left": 416,
+        "bottom": 208,
+        "atalho": "cobra",
+        "proximaPosicao": 11
+    },
+    {
+        "valor": 50,
+        "left": 468,
+        "bottom": 208
+    },
+    {
+        "valor": 51,
+        "left": 468,
+        "bottom": 260,
+        "atalho": "escada",
+        "proximaPosicao": 67
+    },
+    {
+        "valor": 52,
+        "left": 416,
+        "bottom": 260
+    },
+    {
+        "valor": 53,
+        "left": 364,
+        "bottom": 260
+    },
+    {
+        "valor": 54,
+        "left": 312,
+        "bottom": 260
+    },
+    {
+        "valor": 55,
+        "left": 260,
+        "bottom": 260
+    },
+    {
+        "valor": 56,
+        "left": 208,
+        "bottom": 260
+    },
+    {
+        "valor": 57,
+        "left": 156,
+        "bottom": 260
+    },
+    {
+        "valor": 58,
+        "left": 104,
+        "bottom": 260
+    },
+    {
+        "valor": 59,
+        "left": 52,
+        "bottom": 260
+    },
+    {
+        "valor": 60,
+        "left": 0,
+        "bottom": 260
+    },
+    {
+        "valor": 61,
+        "left": 0,
+        "bottom": 312
+    },
+    {
+        "valor": 62,
+        "left": 52,
+        "bottom": 312,
+        "atalho": "cobra",
+        "proximaPosicao": 19
+    },
+    {
+        "valor": 63,
+        "left": 104,
+        "bottom": 312
+    },
+    {
+        "valor": 64,
+        "left": 156,
+        "bottom": 312,
+        "atalho": "cobra",
+        "proximaPosicao": 60
+    },
+    {
+        "valor": 65,
+        "left": 208,
+        "bottom": 312
+    },
+    {
+        "valor": 66,
+        "left": 260,
+        "bottom": 312
+    },
+    {
+        "valor": 67,
+        "left": 312,
+        "bottom": 312
+    },
+    {
+        "valor": 68,
+        "left": 364,
+        "bottom": 312
+    },
+    {
+        "valor": 69,
+        "left": 416,
+        "bottom": 312
+    },
+    {
+        "valor": 70,
+        "left": 468,
+        "bottom": 312
+    },
+    {
+        "valor": 71,
+        "left": 468,
+        "bottom": 364,
+        "atalho": "escada",
+        "proximaPosicao": 91
+    },
+    {
+        "valor": 72,
+        "left": 416,
+        "bottom": 364
+    },
+    {
+        "valor": 73,
+        "left": 364,
+        "bottom": 364
+    },
+    {
+        "valor": 74,
+        "left": 312,
+        "bottom": 364,
+        "atalho": "cobra",
+        "proximaPosicao": 53
+    },
+    {
+        "valor": 75,
+        "left": 260,
+        "bottom": 364
+    },
+    {
+        "valor": 76,
+        "left": 208,
+        "bottom": 364
+    },
+    {
+        "valor": 77,
+        "left": 156,
+        "bottom": 364
+    },
+    {
+        "valor": 78,
+        "left": 104,
+        "bottom": 364,
+        "atalho": "escada",
+        "proximaPosicao": 98
+    },
+    {
+        "valor": 79,
+        "left": 52,
+        "bottom": 364
+    },
+    {
+        "valor": 80,
+        "left": 0,
+        "bottom": 364
+    },
+    {
+        "valor": 81,
+        "left": 0,
+        "bottom": 416
+    },
+    {
+        "valor": 82,
+        "left": 52,
+        "bottom": 416
+    },
+    {
+        "valor": 83,
+        "left": 104,
+        "bottom": 416
+    },
+    {
+        "valor": 84,
+        "left": 156,
+        "bottom": 416
+    },
+    {
+        "valor": 85,
+        "left": 208,
+        "bottom": 416
+    },
+    {
+        "valor": 86,
+        "left": 260,
+        "bottom": 416
+    },
+    {
+        "valor": 87,
+        "left": 312,
+        "bottom": 416,
+        "atalho": "escada",
+        "proximaPosicao": 94
+    },
+    {
+        "valor": 88,
+        "left": 364,
+        "bottom": 416
+    },
+    {
+        "valor": 89,
+        "left": 416,
+        "bottom": 416,
+        "atalho": "cobra",
+        "proximaPosicao": 68
+    },
+    {
+        "valor": 90,
+        "left": 468,
+        "bottom": 416
+    },
+    {
+        "valor": 91,
+        "left": 468,
+        "bottom": 468
+    },
+    {
+        "valor": 92,
+        "left": 416,
+        "bottom": 468,
+        "atalho": "cobra",
+        "proximaPosicao": 88
+    },
+    {
+        "valor": 93,
+        "left": 364,
+        "bottom": 468
+    },
+    {
+        "valor": 94,
+        "left": 312,
+        "bottom": 468
+    },
+    {
+        "valor": 95,
+        "left": 260,
+        "bottom": 468,
+        "atalho": "cobra",
+        "proximaPosicao": 75
+    },
+    {
+        "valor": 96,
+        "left": 208,
+        "bottom": 468
+    },
+    {
+        "valor": 97,
+        "left": 156,
+        "bottom": 468
+    },
+    {
+        "valor": 98,
+        "left": 104,
+        "bottom": 468
+    },
+    {
+        "valor": 99,
+        "left": 52,
+        "bottom": 468,
+        "atalho": "cobra",
+        "proximaPosicao": 80
+    },
+    {
+        "valor": 100,
+        "left": 0,
+        "bottom": 468
+    }
+]

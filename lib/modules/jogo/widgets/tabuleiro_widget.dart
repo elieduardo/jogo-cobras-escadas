@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:jogo_cobras_escadas/modules/jogo/jogo_controller.dart';
+import 'package:jogo_cobras_escadas/shared/core/app_colors.dart';
 import 'package:jogo_cobras_escadas/shared/core/app_images.dart';
-import 'package:jogo_cobras_escadas/shared/enum_posicao.dart';
 import 'package:jogo_cobras_escadas/shared/models/jogadores_model.dart';
 
 class TabuleiroWidget extends StatefulWidget {
-  final JogadoresModel jogadoresModel;
+  final JogoController controller;
 
   const TabuleiroWidget({
     Key? key,
-    required this.jogadoresModel,
+    required this.controller,
   }) : super(key: key);
 
   @override
@@ -17,18 +18,31 @@ class TabuleiroWidget extends StatefulWidget {
 
 class _TabuleiroWidgetState extends State<TabuleiroWidget> {
   @override
+  void initState() {
+    widget.controller.posicaoJogador1Notifier.addListener(() {
+      setState(() {});
+    });
+    widget.controller.posicaoJogador2Notifier.addListener(() {
+      setState(() {});
+    });
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     final teste = ((MediaQuery.of(context).size.width / 2) / 10);
     return Container(
       height: MediaQuery.of(context).size.height,
       width: teste * 10,
-      color: Colors.green[200],
-      child: buildTabuleiro(context, widget.jogadoresModel),
+      color: Colors.green[100],
+      child: buildTabuleiro(
+          context, widget.controller.jogadoresModel, widget.controller),
     );
   }
 }
 
-Widget buildTabuleiro(BuildContext context, JogadoresModel jogadoresModel) {
+Widget buildTabuleiro(BuildContext context, JogadoresModel jogadoresModel,
+    JogoController controller) {
   return Column(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
@@ -39,10 +53,14 @@ Widget buildTabuleiro(BuildContext context, JogadoresModel jogadoresModel) {
           ),
           if (jogadoresModel.posicaoJogador1 != 0)
             Positioned(
-              bottom: EnumPosicao()
-                  .getPositionBotton(jogadoresModel.posicaoJogador1!),
-              left: EnumPosicao()
-                  .getPositionLeft(jogadoresModel.posicaoJogador1!),
+              bottom: controller.posicoes!
+                  .firstWhere((element) =>
+                      element.valor == jogadoresModel.posicaoJogador1)
+                  .bottom,
+              left: controller.posicoes!
+                  .firstWhere((element) =>
+                      element.valor == jogadoresModel.posicaoJogador1)
+                  .left,
               child: Container(
                 width: 52,
                 height: 52,
@@ -53,10 +71,14 @@ Widget buildTabuleiro(BuildContext context, JogadoresModel jogadoresModel) {
             ),
           if (jogadoresModel.posicaoJogador2 != 0)
             Positioned(
-              bottom: EnumPosicao()
-                  .getPositionBotton(jogadoresModel.posicaoJogador2!),
-              left: EnumPosicao()
-                  .getPositionLeft(jogadoresModel.posicaoJogador2!),
+              bottom: controller.posicoes!
+                  .firstWhere((element) =>
+                      element.valor == jogadoresModel.posicaoJogador2)
+                  .bottom,
+              left: controller.posicoes!
+                  .firstWhere((element) =>
+                      element.valor == jogadoresModel.posicaoJogador2)
+                  .left,
               child: Container(
                 width: 52,
                 height: 52,

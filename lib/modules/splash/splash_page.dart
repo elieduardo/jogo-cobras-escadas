@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jogo_cobras_escadas/shared/core/app_colors.dart';
 import 'package:jogo_cobras_escadas/shared/core/app_images.dart';
 
 class SplashPage extends StatelessWidget {
@@ -7,10 +8,10 @@ class SplashPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Future.delayed(Duration(seconds: 3)).then(
-      (_) => Navigator.pushNamed(context, '/home'),
+      (_) => Navigator.pushReplacementNamed(context, '/home'),
     );
     return Scaffold(
-      backgroundColor: Colors.green[200],
+      backgroundColor: AppColors.background,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -25,7 +26,7 @@ class SplashPage extends StatelessWidget {
             child: CircularProgressIndicator(
               color: Colors.green,
             ),
-          )
+          ),
         ],
       ),
     );
