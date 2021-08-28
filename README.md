@@ -1,4 +1,4 @@
-# jogo Cobras e Escadas
+# Jogo Cobras e Escadas
 
 Jogo cobras e escadas desenvolvido com flutter e dart :)
 
